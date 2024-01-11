@@ -1,0 +1,2131 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.16f1 (d2c21f0ef2f1) revision 13812255'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 7523 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/Ilinca/Hai la 12 c
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+61186
+Successfully changed project path to: C:/Users/Ilinca/Hai la 12 c
+C:/Users/Ilinca/Hai la 12 c
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [3020] Host "[IP] 192.168.1.121 [Port] 0 [Flags] 2 [Guid] 2314402859 [EditorId] 2314402859 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HVTIJ98) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [3020] Host "[IP] 192.168.1.121 [Port] 0 [Flags] 2 [Guid] 2314402859 [EditorId] 2314402859 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HVTIJ98) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 3511.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.16f1 (d2c21f0ef2f1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Ilinca/Hai la 12 c/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3976 MB
+    Driver:   31.0.15.3713
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56828
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.317196 seconds.
+- Loaded All Assemblies, in  7.735 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 354 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.883 seconds
+Domain Reload Profiling: 8618ms
+	BeginReloadAssembly (5539ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (3ms)
+	RebuildCommonClasses (446ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (389ms)
+	LoadAllAssembliesAndSetupDomain (1349ms)
+		LoadAssemblies (5533ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1345ms)
+			TypeCache.Refresh (1343ms)
+				TypeCache.ScanAssembly (1080ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (884ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (818ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (619ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (131ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  6.037 seconds
+Refreshing native plugins compatible for Editor in 8.39 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.868 seconds
+Domain Reload Profiling: 6897ms
+	BeginReloadAssembly (223ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (5687ms)
+		LoadAssemblies (5083ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (736ms)
+			TypeCache.Refresh (693ms)
+				TypeCache.ScanAssembly (620ms)
+			ScanForSourceGeneratedMonoScriptInfo (31ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (868ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (684ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (560ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 3.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3084 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (56.8 KB). Loaded Objects now: 3549.
+Memory consumption went from 128.2 MB to 128.1 MB.
+Total: 5.193800 ms (FindLiveObjects: 0.691300 ms CreateObjectMapping: 0.184600 ms MarkObjects: 4.197000 ms  DeleteObjects: 0.118000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3550807.447333 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(cf2ec70804c2acb448a5656a913b4bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(cf2ec70804c2acb448a5656a913b4bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a4842a4f49a6f0953ba310127cbf92') in 0.088283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3452.400509 seconds.
+  path: Assets/Tables and Chairs/Materials/chair1mat.mat
+  artifactKey: Guid(c0112a0f339d37b40a5f2c4fc13c6e89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tables and Chairs/Materials/chair1mat.mat using Guid(c0112a0f339d37b40a5f2c4fc13c6e89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd524fe2fbb72054dc83ba648bef40501') in 1.124097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/cracked wall/Materials/tiling wall 6.mat
+  artifactKey: Guid(a8962747f727bd048974716ab9d4d57e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/cracked wall/Materials/tiling wall 6.mat using Guid(a8962747f727bd048974716ab9d4d57e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e275c7a4bc8fa2082bd187a6e57b0f39') in 0.064538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 9.383170 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(18)/Textures/Tiles_floor(18)_Normals.tga
+  artifactKey: Guid(5ccb92330e90ee043971a40f541d4f74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(18)/Textures/Tiles_floor(18)_Normals.tga using Guid(5ccb92330e90ee043971a40f541d4f74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c51ff49f080b002762a296d68984aa1c') in 0.086817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(01)/Material
+  artifactKey: Guid(b1abd5caea1d49249872c50e789f2575) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(01)/Material using Guid(b1abd5caea1d49249872c50e789f2575) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '357d072f6fd5abbb4c70c1636526e94c') in 0.013844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(19)/Textures/Tiles_floor(19)_Albedo.tga
+  artifactKey: Guid(9f8fcf6ffcd2cdf498624f0066698357) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(19)/Textures/Tiles_floor(19)_Albedo.tga using Guid(9f8fcf6ffcd2cdf498624f0066698357) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '12852090aaed5ef6d4e932b4eb223a26') in 0.049621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(04)/Textures/Tiles_floor(04)_Normals.tga
+  artifactKey: Guid(27031e2f615b82f488adf9e84ead0d62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(04)/Textures/Tiles_floor(04)_Normals.tga using Guid(27031e2f615b82f488adf9e84ead0d62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0be0cd082aa6083a098154baeaea9d29') in 0.047349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Texture_and_materials/Paving_stone/Paving_stone(02)/Textures/Paving_stone(02)_Albedo.tga
+  artifactKey: Guid(efd0e50117a79b54ba7d04206ca9d4ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Paving_stone/Paving_stone(02)/Textures/Paving_stone(02)_Albedo.tga using Guid(efd0e50117a79b54ba7d04206ca9d4ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0d6e2feda356307d66cee7cf2bac3b68') in 0.036689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(18)/Textures/Tiles_floor(18)_Metallic.tga
+  artifactKey: Guid(8681c0d3212a8ed4db0d68b166c41fe8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(18)/Textures/Tiles_floor(18)_Metallic.tga using Guid(8681c0d3212a8ed4db0d68b166c41fe8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '996eab30abbba158003eac0101819db2') in 0.034808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(14)/Textures/Tiles_floor(14)_Ao.tga
+  artifactKey: Guid(a3dca25daa95bb84f93474d7d94c4b63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(14)/Textures/Tiles_floor(14)_Ao.tga using Guid(a3dca25daa95bb84f93474d7d94c4b63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '39471a00b9dd37db1a2c7f815dfe153d') in 0.037297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(07)/Textures/Tiles_floor(07)_Ao.tga
+  artifactKey: Guid(67c0f699961d27549ab204949a838ac9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(07)/Textures/Tiles_floor(07)_Ao.tga using Guid(67c0f699961d27549ab204949a838ac9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2ea94444b92dbae549d57eecb81969ef') in 0.035934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Texture_and_materials/Paving_stone/Paving_stone(03)/Textures/Paving_stone(03)_Albedo.tga
+  artifactKey: Guid(06fe0dcfc64354249a7a5d7eb3bac4e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Paving_stone/Paving_stone(03)/Textures/Paving_stone(03)_Albedo.tga using Guid(06fe0dcfc64354249a7a5d7eb3bac4e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '755673efbc13a7313cbe4ec9069e1f3e') in 0.028880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Texture_and_materials/Paving_stone/Paving_stone(01)
+  artifactKey: Guid(2c3d48d143404c44b965043b2bc41265) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Paving_stone/Paving_stone(01) using Guid(2c3d48d143404c44b965043b2bc41265) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '756438e557b1fa1b44f7dba9819c111c') in 0.010366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(02)/Textures/Tiles_floor(02)_Albedo.tga
+  artifactKey: Guid(e19e3c114c2e6ea4cacbce1e6f73ffcd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(02)/Textures/Tiles_floor(02)_Albedo.tga using Guid(e19e3c114c2e6ea4cacbce1e6f73ffcd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '399f3749924697c34d41f3d652aeb71d') in 0.030952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(14)/Textures/Tiles_floor(14)_Normals.tga
+  artifactKey: Guid(70ab4566eae96124cb679ad6d79e946e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(14)/Textures/Tiles_floor(14)_Normals.tga using Guid(70ab4566eae96124cb679ad6d79e946e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ab124d45526f215e47768c603d2fae99') in 0.030800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(20)/Material/Tiles_floor(20).mat
+  artifactKey: Guid(e64870dd701823141bc5a2c950138366) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(20)/Material/Tiles_floor(20).mat using Guid(e64870dd701823141bc5a2c950138366) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e367792c94c9328b5e00c31be7b573a5') in 0.024694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(17)/Textures/Tiles_floor(17)_Albedo.tga
+  artifactKey: Guid(873b2bd10b421634b80d92af3a2fd232) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(17)/Textures/Tiles_floor(17)_Albedo.tga using Guid(873b2bd10b421634b80d92af3a2fd232) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fb8d5aee3f402faaa410957783dac062') in 0.033701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(08)/Textures/Tiles_floor(08)_Albedo.tga
+  artifactKey: Guid(02542ead63d48684b910e531c2d40579) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(08)/Textures/Tiles_floor(08)_Albedo.tga using Guid(02542ead63d48684b910e531c2d40579) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '888f68867db341a988d6c438058167df') in 0.034438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(01)/Textures/Tiles_floor(01)_Normals.tga
+  artifactKey: Guid(fb6e2340d7580b146bed18a26fd0987f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(01)/Textures/Tiles_floor(01)_Normals.tga using Guid(fb6e2340d7580b146bed18a26fd0987f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7334e9824debe57ec5324493e69e2deb') in 0.038109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(02)/Textures/Tiles_floor(02)_Normals.tga
+  artifactKey: Guid(f2e54a62a851a0543a1582cf301695d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(02)/Textures/Tiles_floor(02)_Normals.tga using Guid(f2e54a62a851a0543a1582cf301695d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cb7c2f222d85207c06cd6ce6d916b35d') in 0.033859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(07)/Textures/Tiles_floor(07)_albedo.tga
+  artifactKey: Guid(326c459b35144fd42935529e16966a58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(07)/Textures/Tiles_floor(07)_albedo.tga using Guid(326c459b35144fd42935529e16966a58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '74d8da70af568b31e118ada9813d6f9a') in 0.035163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(06)
+  artifactKey: Guid(501b110b8da6e754b96375f6e9a08a9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(06) using Guid(501b110b8da6e754b96375f6e9a08a9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '03365d1e4c6b5e9e3162d9e0246470ec') in 0.012339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor
+  artifactKey: Guid(324cc019ce548a941b5eaceec01f2b04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor using Guid(324cc019ce548a941b5eaceec01f2b04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd62cce9fe4e7d6e5143bc5a20765df29') in 0.013987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(05)/Material
+  artifactKey: Guid(c97c3b31a8542f8449084a1794a0f93c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(05)/Material using Guid(c97c3b31a8542f8449084a1794a0f93c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f18da1edb19d7af9d76e4589b965c750') in 0.012044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(05)/Textures
+  artifactKey: Guid(57c51c9248c8ae84292d2d6136c0bc69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(05)/Textures using Guid(57c51c9248c8ae84292d2d6136c0bc69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ffa1628e20a53a09b8e7e9853205c397') in 0.012589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(07)/Textures
+  artifactKey: Guid(46aa8566ef5f04e4e8e41026a384862a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(07)/Textures using Guid(46aa8566ef5f04e4e8e41026a384862a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '87bd1ba5d3efcc85e94b8ad0ad75f928') in 0.014204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(01)/Material/Tiles_floor(01).mat
+  artifactKey: Guid(ac07a20a27f03714c88e0028ab50c017) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(01)/Material/Tiles_floor(01).mat using Guid(ac07a20a27f03714c88e0028ab50c017) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '54c5d6f8e5bf3610484341fbf89b28c0') in 0.020704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(15)/Textures/Tiles_floor(15)_Normals.tga
+  artifactKey: Guid(f0ae1e75425978b4bbc331a95b9eba88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(15)/Textures/Tiles_floor(15)_Normals.tga using Guid(f0ae1e75425978b4bbc331a95b9eba88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cb00b450882348d33d2a18e8e55b90cb') in 0.034879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Texture_and_materials/Stand/Mesh/Materials/Stand.mat
+  artifactKey: Guid(d89119e68f0dc414d97c0dcb8a0deef1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Stand/Mesh/Materials/Stand.mat using Guid(d89119e68f0dc414d97c0dcb8a0deef1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd6b09c05f635e8950f6f93dfa8de1235') in 0.076877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(05)/Textures/Tiles_floor(05)_Ao.tga
+  artifactKey: Guid(e33e042e8ad4a3d4e89d5da6c04e147d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(05)/Textures/Tiles_floor(05)_Ao.tga using Guid(e33e042e8ad4a3d4e89d5da6c04e147d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6c6f1e2fa2c7b56f5b8faabf97918768') in 0.032197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(20)/Textures
+  artifactKey: Guid(b788e063acd30c34a9466b8bc43a93e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(20)/Textures using Guid(b788e063acd30c34a9466b8bc43a93e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '281e6395d7990162099d04898ed88c1b') in 0.010934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(05)/Material/Tiles_floor(05).mat
+  artifactKey: Guid(d3f15545d26b274489f3872b10cad7e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(05)/Material/Tiles_floor(05).mat using Guid(d3f15545d26b274489f3872b10cad7e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0c2bf2eb3bb59eda1fc9bfe8e6452eb7') in 0.020913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(14)/Textures
+  artifactKey: Guid(72925960560b4cc408989194f184c0b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(14)/Textures using Guid(72925960560b4cc408989194f184c0b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fd69b00b4a4f68c293ce87c8c27aaaec') in 0.015479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Texture_and_materials/Paving_stone/Paving_stone(03)/Textures
+  artifactKey: Guid(4e692a6f6674bab47b97d9cdfb567bee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Paving_stone/Paving_stone(03)/Textures using Guid(4e692a6f6674bab47b97d9cdfb567bee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bf1095cf09b9048e1ef8ce58b8c85c5c') in 0.013481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(20)/Material
+  artifactKey: Guid(915d6dcd9f93afd4dba88e2f6d720b54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(20)/Material using Guid(915d6dcd9f93afd4dba88e2f6d720b54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '90b36414d6e316b2a6767aa977062987') in 0.011090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Texture_and_materials/Stand/Mesh/Materials/Cylinder001Mat.mat
+  artifactKey: Guid(4f05b193afe10434cba6ff258f2445d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Stand/Mesh/Materials/Cylinder001Mat.mat using Guid(4f05b193afe10434cba6ff258f2445d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '38fc1cf55ec024bee38cf498a43f14c0') in 0.015953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(09)/Textures
+  artifactKey: Guid(a540ecdd59cacf94781cf88e6ac50e3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(09)/Textures using Guid(a540ecdd59cacf94781cf88e6ac50e3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dad7cd9aaa33a0c3374f8f42304616dd') in 0.013145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(20)/Textures/Tiles_floor(20)_Normals.tga
+  artifactKey: Guid(5467158450483124d93ec450cf0f5514) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(20)/Textures/Tiles_floor(20)_Normals.tga using Guid(5467158450483124d93ec450cf0f5514) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '08ff496e093e00863f02eb2f08d2bea0') in 0.029951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(18)/Textures
+  artifactKey: Guid(fac371a0c4842c345bdf441bda267e8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(18)/Textures using Guid(fac371a0c4842c345bdf441bda267e8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '08aac177d8f9b260ebeb1a8e17252eb6') in 0.012096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(10)/Material
+  artifactKey: Guid(5c546d04c7fe84547a4dad3885675292) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(10)/Material using Guid(5c546d04c7fe84547a4dad3885675292) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '80c99805328b1b7e627fcbe8d31b0570') in 0.012705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(18)/Textures/Tiles_floor(18)_Albedo.tga
+  artifactKey: Guid(d4ac3f2dc0a92ca47a6e20fb2a3a7d01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(18)/Textures/Tiles_floor(18)_Albedo.tga using Guid(d4ac3f2dc0a92ca47a6e20fb2a3a7d01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '027deb75c8d88292838f2a188548380c') in 0.031919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(19)/Textures
+  artifactKey: Guid(a077a14b5c020544b99b78a10140bfcc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(19)/Textures using Guid(a077a14b5c020544b99b78a10140bfcc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cd4cae4954cf7342e2e874395201e4b8') in 0.011302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(13)/Textures/Tiles_floor(13)_Normals.tga
+  artifactKey: Guid(16b882cea7ff4594f8f11f50c095462c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(13)/Textures/Tiles_floor(13)_Normals.tga using Guid(16b882cea7ff4594f8f11f50c095462c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '083259a503c4f4571a7d4cd0ada891fc') in 0.035603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(01)/Textures
+  artifactKey: Guid(27bd463a12dc0a942b5e48d86b866c09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(01)/Textures using Guid(27bd463a12dc0a942b5e48d86b866c09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '101f9c8ce8cb43cb92cdb39f533c94e5') in 0.012851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(12)/Material/Tiles_floor(12).mat
+  artifactKey: Guid(ab93350d62e0ef144aa586fffceae9d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(12)/Material/Tiles_floor(12).mat using Guid(ab93350d62e0ef144aa586fffceae9d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '87758843f492f0bf2d9038cd03e70c99') in 0.020503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(07)/Material/Tiles_floor(07).mat
+  artifactKey: Guid(3b53587be22de4c44ba9682ce679ba19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(07)/Material/Tiles_floor(07).mat using Guid(3b53587be22de4c44ba9682ce679ba19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b28d621e70a14d48b32686545dbc887f') in 0.018790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(19)/Textures/Tiles_floor(19)_Normals.tga
+  artifactKey: Guid(b9fc6a1b0253edc40893a093297e8407) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(19)/Textures/Tiles_floor(19)_Normals.tga using Guid(b9fc6a1b0253edc40893a093297e8407) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '52f1472ff09173e69407830048aee0c1') in 0.035421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(11)/Textures/Tiles_floor(11)_Normals.tga
+  artifactKey: Guid(5cedf615a9705244b8a831320de1017f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(11)/Textures/Tiles_floor(11)_Normals.tga using Guid(5cedf615a9705244b8a831320de1017f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5d9857f60338b8073a03d589059b5b2c') in 0.027197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(03)/Material/Tiles_floor(03).mat
+  artifactKey: Guid(54cc8aab93e7b1f44a8741c8b081f5e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(03)/Material/Tiles_floor(03).mat using Guid(54cc8aab93e7b1f44a8741c8b081f5e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '058bf102506082022fbd91f2da39f806') in 0.020619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(12)
+  artifactKey: Guid(9e64087f1a904a040be4fd0c55469318) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(12) using Guid(9e64087f1a904a040be4fd0c55469318) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8ace3d607ca515aa0652a1c292f94fdc') in 0.011891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(15)/Textures
+  artifactKey: Guid(eee6752ebc8c7174e926a46e61f43e3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(15)/Textures using Guid(eee6752ebc8c7174e926a46e61f43e3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c05a62885fbe7a33d38af3061cba4163') in 0.010127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(13)/Textures/Tiles_floor(13)_Ao.tga
+  artifactKey: Guid(a36a4ea47fe759e4f98440c173a2b7ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(13)/Textures/Tiles_floor(13)_Ao.tga using Guid(a36a4ea47fe759e4f98440c173a2b7ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '19508db72bc03943dc03ff3b5db6dc6e') in 0.026433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(04)/Material
+  artifactKey: Guid(ac3f9c37e7bfee346ae6bbd9aa7cd747) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(04)/Material using Guid(ac3f9c37e7bfee346ae6bbd9aa7cd747) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9d827c13cb09cedf3ab563543881394f') in 0.017319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(04)/Textures/Tiles_floor(04)_Metallic.tga
+  artifactKey: Guid(9cbf380e2d69dbd4da85d830e4f00e38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(04)/Textures/Tiles_floor(04)_Metallic.tga using Guid(9cbf380e2d69dbd4da85d830e4f00e38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1b2d0c4e50c456e5b675c0aa8dc5fe40') in 0.041538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(03)/Textures/Tiles_floor(02)_Normals.tga
+  artifactKey: Guid(3384f6a58440c82488522f2a8f787da4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(03)/Textures/Tiles_floor(02)_Normals.tga using Guid(3384f6a58440c82488522f2a8f787da4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6a09ef80c57f3f8efb1bb3abc2107f2b') in 0.034681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Texture_and_materials/Paving_stone/Paving_stone(03)/Material
+  artifactKey: Guid(668a5deb2400f3c46905e32aa9de08a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Paving_stone/Paving_stone(03)/Material using Guid(668a5deb2400f3c46905e32aa9de08a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4d9cad6d999e7190524a342022cec84e') in 0.012638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(15)/Textures/Tiles_floor(15)_Metallic.tga
+  artifactKey: Guid(f96e7cb96e83e27459e864ef7c26e63c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(15)/Textures/Tiles_floor(15)_Metallic.tga using Guid(f96e7cb96e83e27459e864ef7c26e63c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '52a799e252918feab10a2ea2f83b7767') in 0.040357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(08)
+  artifactKey: Guid(84d7bc5a56bf62044985af487e1fceeb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(08) using Guid(84d7bc5a56bf62044985af487e1fceeb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'edd35db36b6bae8751b2f0a364c86aca') in 0.012942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(15)
+  artifactKey: Guid(b16392be27133db4ca53274c95bbd770) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(15) using Guid(b16392be27133db4ca53274c95bbd770) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a6b5ae5fa2fa050e13e3d92facd84dc1') in 0.013394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(17)/Textures/Tiles_floor(17)_Metallic.tga
+  artifactKey: Guid(61fc9a435afbb4f4ca0618f9fb194ba6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(17)/Textures/Tiles_floor(17)_Metallic.tga using Guid(61fc9a435afbb4f4ca0618f9fb194ba6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1708368b43b24909cac4922d30f22880') in 0.040544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Texture_and_materials/Paving_stone/Paving_stone(01)/Material/Paving_stone(01).mat
+  artifactKey: Guid(d833b44651aa33d498661ed8627ea2e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Paving_stone/Paving_stone(01)/Material/Paving_stone(01).mat using Guid(d833b44651aa33d498661ed8627ea2e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9b69c4569b6feec10413aad648008f6c') in 0.021077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(18)/Material/Tiles_floor(18).mat
+  artifactKey: Guid(25507614de1d3104e9b6ee0e783bb74f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(18)/Material/Tiles_floor(18).mat using Guid(25507614de1d3104e9b6ee0e783bb74f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4c4477d27df70c61dd6036626b8fa171') in 0.020225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(12)/Textures/Tiles_floor(12)_Albedo.tga
+  artifactKey: Guid(152630beb1cb4fa4cae6a38ae493cd4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(12)/Textures/Tiles_floor(12)_Albedo.tga using Guid(152630beb1cb4fa4cae6a38ae493cd4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a57055aeaa661deafbf07cd5e592537d') in 0.028377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(06)/Textures
+  artifactKey: Guid(10a09b94f50f5cf40826b89148b95b84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(06)/Textures using Guid(10a09b94f50f5cf40826b89148b95b84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f592904e3c35faf2574c06324588db45') in 0.011448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(19)/Material
+  artifactKey: Guid(5d629a694d6731644a435ac7b6507042) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(19)/Material using Guid(5d629a694d6731644a435ac7b6507042) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4500b1141d33129444c09727992f7f35') in 0.011558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(11)/Material/Tiles_floor(11).mat
+  artifactKey: Guid(6747d29a4683710488c2ca27af740899) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(11)/Material/Tiles_floor(11).mat using Guid(6747d29a4683710488c2ca27af740899) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cfb50f018a2d5ef39575a9645879e28b') in 0.022995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Texture_and_materials/Paving_stone/Paving_stone(03)/Material/Paving_stone(03).mat
+  artifactKey: Guid(b2efde10dd94755479d87d528434265d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Paving_stone/Paving_stone(03)/Material/Paving_stone(03).mat using Guid(b2efde10dd94755479d87d528434265d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6defaff2bdbdd33ac0c8741436e565e8') in 0.024055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(04)/Textures/Tiles_floor(04)_Ao.tga
+  artifactKey: Guid(55c2c8fd1ac3fa64cb2beac91e1c2c5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(04)/Textures/Tiles_floor(04)_Ao.tga using Guid(55c2c8fd1ac3fa64cb2beac91e1c2c5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5d1d4997036be518b528b2f08a976579') in 0.034872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(13)
+  artifactKey: Guid(6589753a44bcc9041933c5949ae7b078) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(13) using Guid(6589753a44bcc9041933c5949ae7b078) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5419dd75514720c6ed3f2f951d2c2da6') in 0.013798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(18)/Material
+  artifactKey: Guid(76da2ec0a0ed8bd4e90a0d436c7a6aae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(18)/Material using Guid(76da2ec0a0ed8bd4e90a0d436c7a6aae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e553180d91550370751d8beaf96a49d5') in 0.012523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(17)
+  artifactKey: Guid(c05e4a84e03e8c041975e93ed08ff6ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(17) using Guid(c05e4a84e03e8c041975e93ed08ff6ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd1a82ffcc7f386b823fa648637b8553d') in 0.010658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor.unity
+  artifactKey: Guid(efc7f09c62dce1c49bff9760f8223f66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor.unity using Guid(efc7f09c62dce1c49bff9760f8223f66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7454032660750efb7b6539800c1c344d') in 0.012747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(10)/Textures/Tiles_floor(10)_Ao.tga
+  artifactKey: Guid(d720308410203ba41956c582631697af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(10)/Textures/Tiles_floor(10)_Ao.tga using Guid(d720308410203ba41956c582631697af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3f1aeeeafd3f3317a06a61c9249dd721') in 0.031431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(19)/Material/Tiles_floor(19).mat
+  artifactKey: Guid(98ac74df6c9550744b104ae9beed0b3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(19)/Material/Tiles_floor(19).mat using Guid(98ac74df6c9550744b104ae9beed0b3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '18f249af0d3304c8604c4e9c2506ada5') in 0.016204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(17)/Material
+  artifactKey: Guid(b1f492501db57ca45ab6114292692c4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(17)/Material using Guid(b1f492501db57ca45ab6114292692c4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b1907eb145c502de9350e3cc9a21418c') in 0.013052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Texture_and_materials/Paving_stone/Paving_stone(01)/Material
+  artifactKey: Guid(5a4010f74b64fc843aefc56e8061ac46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Paving_stone/Paving_stone(01)/Material using Guid(5a4010f74b64fc843aefc56e8061ac46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '92e8a8b2441233c06a9fed804c9e021e') in 0.012761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(14)/Textures/Tiles_floor(14)_Metallic.tga
+  artifactKey: Guid(5f9d9e533bd8cce439f347f6a26885bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(14)/Textures/Tiles_floor(14)_Metallic.tga using Guid(5f9d9e533bd8cce439f347f6a26885bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0d085ffe994d5c8eeafff59a56a5da8f') in 0.032718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(20)/Textures/Tiles_floor(20)_Albedo.tga
+  artifactKey: Guid(d2beb66c107472d4986df55063729884) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(20)/Textures/Tiles_floor(20)_Albedo.tga using Guid(d2beb66c107472d4986df55063729884) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '05a79a15e89c6cb3bf9f13ff92838d6e') in 0.029456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(05)/Textures/Tiles_floor(05)_Metallic.tga
+  artifactKey: Guid(4fe797be771338343910df1587bfffcc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(05)/Textures/Tiles_floor(05)_Metallic.tga using Guid(4fe797be771338343910df1587bfffcc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '52e9a609065d68bb8badd49ea363a984') in 0.032644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(15)/Textures/Tiles_floor(15)_Ao.tga
+  artifactKey: Guid(6b19e2d816c0e3d45863c433479a62da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(15)/Textures/Tiles_floor(15)_Ao.tga using Guid(6b19e2d816c0e3d45863c433479a62da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c8c5aa17351a069b0cf25f9bb03377bb') in 0.031510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(18)
+  artifactKey: Guid(53892cad96f18004c9a4268ff74dd894) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(18) using Guid(53892cad96f18004c9a4268ff74dd894) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a5efad1f7d74ecae1483214e4635deea') in 0.012569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Texture_and_materials/Paving_stone/Paving_stone(01)/Textures/Paving_stone(01)_Ao.tga
+  artifactKey: Guid(048dc1661caff2e49905b1816c97990b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Paving_stone/Paving_stone(01)/Textures/Paving_stone(01)_Ao.tga using Guid(048dc1661caff2e49905b1816c97990b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bd5e4e43743a10968e71daa766d64949') in 0.034876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Texture_and_materials/Paving_stone/Paving_stone(03)/Textures/Paving_stone(03)_Metallic.tga
+  artifactKey: Guid(a6a6badc28a3cf74e88a4317508f2b11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Paving_stone/Paving_stone(03)/Textures/Paving_stone(03)_Metallic.tga using Guid(a6a6badc28a3cf74e88a4317508f2b11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2c26df05a33e731e86a52186eefc7eba') in 0.034982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(01)/Textures/Tiles_floor(01)_Albedo.tga
+  artifactKey: Guid(35931cbc389da2640b48ceb396ca563b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(01)/Textures/Tiles_floor(01)_Albedo.tga using Guid(35931cbc389da2640b48ceb396ca563b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '87619dd8a47e07424fcdf634c96c669b') in 0.034000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Texture_and_materials/Paving_stone
+  artifactKey: Guid(ca84c4ac1c8b7bd4883cb5d2e56089b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Paving_stone using Guid(ca84c4ac1c8b7bd4883cb5d2e56089b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e96126dbdc3a3967a28c05c17916b2b2') in 0.012143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(17)/Textures/Tiles_floor(17)_Normals.tga
+  artifactKey: Guid(68098b30b7a42254fbe17758c3e600ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(17)/Textures/Tiles_floor(17)_Normals.tga using Guid(68098b30b7a42254fbe17758c3e600ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '46cc3bf2617b5f93874d71ebb93e3848') in 0.036041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Texture_and_materials/Paving_stone/Paving_stone(02)/Textures/Paving_stone(02)_Normls.tga
+  artifactKey: Guid(bea9f84b8dc38a74ebe294c438ff4421) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Paving_stone/Paving_stone(02)/Textures/Paving_stone(02)_Normls.tga using Guid(bea9f84b8dc38a74ebe294c438ff4421) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '565614dc7202721664c99bd9f291b14b') in 0.034145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Texture_and_materials/Paving_stone/Paving_stone(02)/Textures/Paving_stone(02)_Metallic.tga
+  artifactKey: Guid(63f9005ddcb94d54c97d731561ed01f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Paving_stone/Paving_stone(02)/Textures/Paving_stone(02)_Metallic.tga using Guid(63f9005ddcb94d54c97d731561ed01f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '86d19ee34f7caf38a09ff21e9881d17c') in 0.033584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(01)/Textures/Tiles_floor(01)_Ao.tga
+  artifactKey: Guid(175c1fb3046f694469050ed55a97da5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(01)/Textures/Tiles_floor(01)_Ao.tga using Guid(175c1fb3046f694469050ed55a97da5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fcbe0104508bf7cdd0075a7695750a78') in 0.035672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(05)/Textures/Tiles_floor(05)_Albedo.tga
+  artifactKey: Guid(03f8a155976a50740af4780f853059ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(05)/Textures/Tiles_floor(05)_Albedo.tga using Guid(03f8a155976a50740af4780f853059ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fcb674b16fb7981b5abe7c3930c5963c') in 0.032840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(12)/Textures/Tiles_floor(12)_Normals.tga
+  artifactKey: Guid(5f7bd37d454378d47ac5f14968f4e9d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(12)/Textures/Tiles_floor(12)_Normals.tga using Guid(5f7bd37d454378d47ac5f14968f4e9d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1f73b67a659273f13f8ad4de92499c1e') in 0.031357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(13)/Textures
+  artifactKey: Guid(95345a2fa1ad91f4bb427b73b008dd0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(13)/Textures using Guid(95345a2fa1ad91f4bb427b73b008dd0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bcfb7b94c87f6386786ccd6f86e91a35') in 0.012097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(08)/Textures
+  artifactKey: Guid(2030c8a3ed2cf624689b150ed54c07db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(08)/Textures using Guid(2030c8a3ed2cf624689b150ed54c07db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '27ad8ada8e7c241547cd93b44f9d3179') in 0.010740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(02)/Textures/Tiles_floor(02)_Metallic.tga
+  artifactKey: Guid(4e8178c6c373dfc42a148a0b7b5bcdd1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(02)/Textures/Tiles_floor(02)_Metallic.tga using Guid(4e8178c6c373dfc42a148a0b7b5bcdd1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4ce657b17df305251ebf125297a82715') in 0.028622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(12)/Textures
+  artifactKey: Guid(bf7c52b649b4b244992a076a3dd4b298) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(12)/Textures using Guid(bf7c52b649b4b244992a076a3dd4b298) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8c73179a41dada54e286699ef4b4b1f6') in 0.011440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(14)/Material/Tiles_floor(14).mat
+  artifactKey: Guid(a1584fada47f6b54dbc0958385e44866) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(14)/Material/Tiles_floor(14).mat using Guid(a1584fada47f6b54dbc0958385e44866) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5f96229f2663993da55ac55556621d6c') in 0.020190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(03)
+  artifactKey: Guid(d2c4e2a7a7f23904b9711598c680752f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(03) using Guid(d2c4e2a7a7f23904b9711598c680752f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '89d332beb69e4c183536384afd6c271a') in 0.012970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(03)/Textures/Tiles_floor(03)_Metallic.tga
+  artifactKey: Guid(1112f2eb1f1a80c48b67407b9d9a95b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(03)/Textures/Tiles_floor(03)_Metallic.tga using Guid(1112f2eb1f1a80c48b67407b9d9a95b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4095dba1e620075749181c59abb3c2a0') in 0.032988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(09)/Textures/Tiles_floor(09)_Albedo.tga
+  artifactKey: Guid(ec63688133604c24b92c858935f429e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(09)/Textures/Tiles_floor(09)_Albedo.tga using Guid(ec63688133604c24b92c858935f429e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '205618c4b5181ca0df7857f462f91df7') in 0.036893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(07)
+  artifactKey: Guid(145c9d728c402ff4a906bcaad674c334) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(07) using Guid(145c9d728c402ff4a906bcaad674c334) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '08068b6a7ce532879b84adba004ddeb4') in 0.011079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 78.645672 seconds.
+  path: Assets/cracked wall/textures
+  artifactKey: Guid(37a3f8b8ff4c7d740976072914a3abe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cracked wall/textures using Guid(37a3f8b8ff4c7d740976072914a3abe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2f02a21053926450d31d26024da74a3') in 0.039092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.710792 seconds.
+  path: Assets/cracked wall/Materials/tiling wall 6.mat
+  artifactKey: Guid(a8962747f727bd048974716ab9d4d57e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cracked wall/Materials/tiling wall 6.mat using Guid(a8962747f727bd048974716ab9d4d57e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2687a622ff7c868b08e7130c1642444f') in 0.303494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 6.608006 seconds.
+  path: Assets/Texture_and_materials
+  artifactKey: Guid(f6e63dfe38a91fc4aa3d337d0bef60bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials using Guid(f6e63dfe38a91fc4aa3d337d0bef60bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50bd3daea3db2dfd457b73f2ae6e77ad') in 0.001059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.166544 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor
+  artifactKey: Guid(324cc019ce548a941b5eaceec01f2b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials/Tiles_floor using Guid(324cc019ce548a941b5eaceec01f2b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1af1fb8d4332a22ae91173baf0e2257a') in 0.000844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.816013 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(03)
+  artifactKey: Guid(d2c4e2a7a7f23904b9711598c680752f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(03) using Guid(d2c4e2a7a7f23904b9711598c680752f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cdd9cfe2b56a1ed3284e90bd3209dc5') in 0.000781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.792265 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(03)/Textures
+  artifactKey: Guid(0d5dd71391b0fc3458663255a4ce73c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(03)/Textures using Guid(0d5dd71391b0fc3458663255a4ce73c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beff8eca2582bbdae0f0197d6414e891') in 0.000504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.111374 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(03)/Textures/Tiles_floor(02)_Albedo.tga
+  artifactKey: Guid(2b91639540ddd714da0a542e2df75a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(03)/Textures/Tiles_floor(02)_Albedo.tga using Guid(2b91639540ddd714da0a542e2df75a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '019c944469e1e2fda10bb8d2aa280611') in 0.045366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(03)/Textures/Tiles_floor(03)_Metallic.tga
+  artifactKey: Guid(1112f2eb1f1a80c48b67407b9d9a95b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(03)/Textures/Tiles_floor(03)_Metallic.tga using Guid(1112f2eb1f1a80c48b67407b9d9a95b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd121ecb467331f18e575f24431ff33c3') in 0.020233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 9.859787 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(03)/Materials
+  artifactKey: Guid(63ab4442b6e1d8b42b73f2b67237b551) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(03)/Materials using Guid(63ab4442b6e1d8b42b73f2b67237b551) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dbcac32e2fd5bb9f530721e24ac7ff55') in 0.024659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 8.951068 seconds.
+  path: Assets/Texture_and_materials/Paving_stone
+  artifactKey: Guid(ca84c4ac1c8b7bd4883cb5d2e56089b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials/Paving_stone using Guid(ca84c4ac1c8b7bd4883cb5d2e56089b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd076030540b98075b85a3e2acf945120') in 0.000772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.863139 seconds.
+  path: Assets/Texture_and_materials/Paving_stone/Paving_stone(01)
+  artifactKey: Guid(2c3d48d143404c44b965043b2bc41265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials/Paving_stone/Paving_stone(01) using Guid(2c3d48d143404c44b965043b2bc41265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6deaf7a045b051668901f25b3b3da18b') in 0.000692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.134571 seconds.
+  path: Assets/Texture_and_materials/Paving_stone/Paving_stone(01)/Material
+  artifactKey: Guid(5a4010f74b64fc843aefc56e8061ac46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials/Paving_stone/Paving_stone(01)/Material using Guid(5a4010f74b64fc843aefc56e8061ac46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c9513c62e652edfbd311bddfae04b99') in 0.000607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.081198 seconds.
+  path: Assets/Texture_and_materials/Paving_stone/Paving_stone(01)/Material/Paving_stone(01).mat
+  artifactKey: Guid(d833b44651aa33d498661ed8627ea2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials/Paving_stone/Paving_stone(01)/Material/Paving_stone(01).mat using Guid(d833b44651aa33d498661ed8627ea2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a76780f3c3b46c54c304d5ed2fc1e1fa') in 0.187558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 8.938051 seconds.
+  path: Assets/Texture_and_materials/Paving_stone/Paving_stone(01)/Textures
+  artifactKey: Guid(600f22e68a5a7714484601302fc8ed28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials/Paving_stone/Paving_stone(01)/Textures using Guid(600f22e68a5a7714484601302fc8ed28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db5a827ce7a476f0d4173e50cbafbce1') in 0.000910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.758005 seconds.
+  path: Assets/Texture_and_materials/Paving_stone/Paving_stone(01)/Textures/Paving_stone(01)_Albedo.tga
+  artifactKey: Guid(aadfbfeae6e8cd04dbb899bc6c868dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials/Paving_stone/Paving_stone(01)/Textures/Paving_stone(01)_Albedo.tga using Guid(aadfbfeae6e8cd04dbb899bc6c868dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3400e4d5651ddaa366e9cda869ce936a') in 0.046067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Texture_and_materials/Paving_stone/Paving_stone(01)/Textures/Paving_stone(01)_Metallic.tga
+  artifactKey: Guid(ee0778149e362c04a8442b35b3e8624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials/Paving_stone/Paving_stone(01)/Textures/Paving_stone(01)_Metallic.tga using Guid(ee0778149e362c04a8442b35b3e8624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b61b72ed6c9f0e8576a5a513f0559ae9') in 0.025588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.365967 seconds.
+  path: Assets/Texture_and_materials/Paving_stone/Paving_stone(01)/Materials
+  artifactKey: Guid(cb8a66d1a66b7e94abaff2c767ac01f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Texture_and_materials/Paving_stone/Paving_stone(01)/Materials using Guid(cb8a66d1a66b7e94abaff2c767ac01f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8fbb5b6b7607bde7bd832825eceacce2') in 0.021646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 6.311858 seconds.
+  path: Assets/Texture_and_materials/Paving_stone/Paving_stone(02)
+  artifactKey: Guid(3801e046aca7f6a4490081217e1f3814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials/Paving_stone/Paving_stone(02) using Guid(3801e046aca7f6a4490081217e1f3814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ed6c7dfba73a098a3bf172571d2548') in 0.000722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.749704 seconds.
+  path: Assets/Texture_and_materials/Paving_stone/Paving_stone(02)/Material
+  artifactKey: Guid(d7a405d13e63e694cb25ae61a84511bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials/Paving_stone/Paving_stone(02)/Material using Guid(d7a405d13e63e694cb25ae61a84511bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '037faff7633ee563d88f2602f74b3287') in 0.000919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.065772 seconds.
+  path: Assets/Texture_and_materials/Paving_stone/Paving_stone(02)/Material/Paving_stone(02).mat
+  artifactKey: Guid(f76cbc945fa65b147a6ad6a9c8bab93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials/Paving_stone/Paving_stone(02)/Material/Paving_stone(02).mat using Guid(f76cbc945fa65b147a6ad6a9c8bab93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e475bd34b7b3292be57cd6f958df1383') in 0.028577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 5.286327 seconds.
+  path: Assets/Texture_and_materials/Paving_stone/Paving_stone(03)
+  artifactKey: Guid(9bd0a7525c41bf7488a50815e47c690d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials/Paving_stone/Paving_stone(03) using Guid(9bd0a7525c41bf7488a50815e47c690d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b39e33d725695634b2dbab1001c39c55') in 0.000830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.886574 seconds.
+  path: Assets/Texture_and_materials/Paving_stone/Paving_stone(03)/Material
+  artifactKey: Guid(668a5deb2400f3c46905e32aa9de08a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials/Paving_stone/Paving_stone(03)/Material using Guid(668a5deb2400f3c46905e32aa9de08a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b5f7f12bc3535f649aa7233c46a9a33') in 0.001416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.066520 seconds.
+  path: Assets/Texture_and_materials/Paving_stone/Paving_stone(03)/Material/Paving_stone(03).mat
+  artifactKey: Guid(b2efde10dd94755479d87d528434265d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials/Paving_stone/Paving_stone(03)/Material/Paving_stone(03).mat using Guid(b2efde10dd94755479d87d528434265d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '876c0453a9b468eca64666e448b7fb5e') in 0.027503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 6.950376 seconds.
+  path: Assets/Texture_and_materials/Stand
+  artifactKey: Guid(85714a1203e21aa4b80660f7d0b1b4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials/Stand using Guid(85714a1203e21aa4b80660f7d0b1b4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6947fbb5fc259da41956f8398e2e548') in 0.000749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.903932 seconds.
+  path: Assets/Texture_and_materials/Stand/Mesh
+  artifactKey: Guid(7f4fbcfda1c52c74fbecf23a56bac14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials/Stand/Mesh using Guid(7f4fbcfda1c52c74fbecf23a56bac14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27ea0bcbef1f9ccbdae6d02d44ed20b1') in 0.000588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.066354 seconds.
+  path: Assets/Texture_and_materials/Stand/Mesh/Stand.obj
+  artifactKey: Guid(f37a565c9fd4eb247a7a1ba3732dccf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials/Stand/Mesh/Stand.obj using Guid(f37a565c9fd4eb247a7a1ba3732dccf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c948096212363536cb49252d1b31274') in 0.131600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 8.057083 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(01)
+  artifactKey: Guid(a9d402699e94bed438cd59c121ff5ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(01) using Guid(a9d402699e94bed438cd59c121ff5ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad377e63484a5cda313d03416f98cce9') in 0.001022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.789059 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(01)/Material
+  artifactKey: Guid(b1abd5caea1d49249872c50e789f2575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(01)/Material using Guid(b1abd5caea1d49249872c50e789f2575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baa91b18d7ebc166b4462436ee07a6cf') in 0.000560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.088985 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(01)/Material/Tiles_floor(01).mat
+  artifactKey: Guid(ac07a20a27f03714c88e0028ab50c017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(01)/Material/Tiles_floor(01).mat using Guid(ac07a20a27f03714c88e0028ab50c017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a6dc1645e8811c041bf2924906a09b') in 0.030327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 11.170371 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(02)
+  artifactKey: Guid(f2367b97b9f08c742be1147071e6bb08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(02) using Guid(f2367b97b9f08c742be1147071e6bb08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5acf443c815bb92e4223cfbf91ce89e4') in 0.000723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.081616 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(02)/Tiles_floor(02).mat
+  artifactKey: Guid(1e56e2baeb901d64caccdb09a37e6744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(02)/Tiles_floor(02).mat using Guid(1e56e2baeb901d64caccdb09a37e6744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2390af4520be39d16a14de04b3d8d7fc') in 0.029614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 5.422938 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(03)/Material
+  artifactKey: Guid(64c1ca4903a23cb4794f7269173b64fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(03)/Material using Guid(64c1ca4903a23cb4794f7269173b64fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce9fe6dcb0deac3107dfef8202462864') in 0.001899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.070569 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(03)/Material/Tiles_floor(03).mat
+  artifactKey: Guid(54cc8aab93e7b1f44a8741c8b081f5e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(03)/Material/Tiles_floor(03).mat using Guid(54cc8aab93e7b1f44a8741c8b081f5e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7111fa5025f755567b0ce97473a31089') in 0.030069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 16.272912 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(03)/Materials
+  artifactKey: Guid(63ab4442b6e1d8b42b73f2b67237b551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(03)/Materials using Guid(63ab4442b6e1d8b42b73f2b67237b551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3adc7122d0d254bd684d2055d7f41d04') in 0.000944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.076246 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(03)/Materials/Tiles_floor(02)_Albedo.mat
+  artifactKey: Guid(6a66b4797d0ab8c4ebd7c98ad22c12e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(03)/Materials/Tiles_floor(02)_Albedo.mat using Guid(6a66b4797d0ab8c4ebd7c98ad22c12e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a713a379e9019d292f7e91345f57b36') in 0.033226 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 6.142789 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(04)
+  artifactKey: Guid(e0bd9cebaf8c0cf428ce031bc928abda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(04) using Guid(e0bd9cebaf8c0cf428ce031bc928abda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '286f1e4be164d597539e21b25a53ecf7') in 0.000717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.862563 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(04)/Material
+  artifactKey: Guid(ac3f9c37e7bfee346ae6bbd9aa7cd747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(04)/Material using Guid(ac3f9c37e7bfee346ae6bbd9aa7cd747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ecf78deb290d472082ba05bc0c4591b') in 0.000589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.090927 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(04)/Material/Tiles_floor(04).mat
+  artifactKey: Guid(8f3509c778a61ca41b0f4ebfd72b028b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(04)/Material/Tiles_floor(04).mat using Guid(8f3509c778a61ca41b0f4ebfd72b028b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '471ecb29ddcc0e19a170f5a885fecc9c') in 0.037693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 741.964492 seconds.
+  path: Assets/FlagPole/Scenes/SceneMaterials/RoofMaterial.mat
+  artifactKey: Guid(c8ea698beaa81544388ef8c2e20ac88f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FlagPole/Scenes/SceneMaterials/RoofMaterial.mat using Guid(c8ea698beaa81544388ef8c2e20ac88f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3ee9a1573d13e270d25a618569dff957') in 0.057757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/FlagPole/Scenes/SceneMaterials/WallMaterial.mat
+  artifactKey: Guid(9b901cc7c3b034648bdbd09fb2d04bb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FlagPole/Scenes/SceneMaterials/WallMaterial.mat using Guid(9b901cc7c3b034648bdbd09fb2d04bb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '213690ca465b731927d977d03896501a') in 0.032228 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/FlagPole/PoleMaterials/Textures/BrandNewSmooth_Gold_Material_Normal.bmp
+  artifactKey: Guid(15547247436b3b0449524788fc494f1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FlagPole/PoleMaterials/Textures/BrandNewSmooth_Gold_Material_Normal.bmp using Guid(15547247436b3b0449524788fc494f1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b9a303d398afc5af5620d8efff624cd4') in 0.107248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/FlagPole/FlagMaterials
+  artifactKey: Guid(4b4444620572b80498bf5c409f0fb65e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FlagPole/FlagMaterials using Guid(4b4444620572b80498bf5c409f0fb65e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6e610645d3e5b1a6680d82b047611978') in 0.013046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/FlagPole/Prefabs/FlagPole.prefab
+  artifactKey: Guid(0f1d9245d7f45da4db8a23fdf28355a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FlagPole/Prefabs/FlagPole.prefab using Guid(0f1d9245d7f45da4db8a23fdf28355a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '91949c3d1da7fd9754f3f657314bcb79') in 0.042116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FlagPole/Scenes/ExampleScene.unity
+  artifactKey: Guid(c7f35c6bda3bdbb4ba01417968bf478e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FlagPole/Scenes/ExampleScene.unity using Guid(c7f35c6bda3bdbb4ba01417968bf478e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '50016f679c9b7ea2a2474a7841ca9ef8') in 0.013252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/FlagPole/FlagMaterials/Materials
+  artifactKey: Guid(98ec5781eb4dce74ab3f71ea56af307c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FlagPole/FlagMaterials/Materials using Guid(98ec5781eb4dce74ab3f71ea56af307c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bd073c9e88870fdb3103a1de756b8a97') in 0.016132 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/FlagPole/FlagMaterials/Textures
+  artifactKey: Guid(af10714ede1a0be4d8227e749a32d1cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FlagPole/FlagMaterials/Textures using Guid(af10714ede1a0be4d8227e749a32d1cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aeb4b56bac9fbed4e481b176d77d75bb') in 0.014120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/FlagPole/PoleMaterials/Materials
+  artifactKey: Guid(783f84b75365bb14c88350e4bff3bc52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FlagPole/PoleMaterials/Materials using Guid(783f84b75365bb14c88350e4bff3bc52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c2f5957fd177e14fa569e8f48e6fecde') in 0.015727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/FlagPole/FlagMaterials/Textures/AmericaFlagNormal.png
+  artifactKey: Guid(19e6e5d347c9f6741ae3ff436fd5760a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FlagPole/FlagMaterials/Textures/AmericaFlagNormal.png using Guid(19e6e5d347c9f6741ae3ff436fd5760a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '38c57864114069a8936188aca097e654') in 0.038926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/FlagPole/UnwrapTexture/FlagTextureUnwrap.png
+  artifactKey: Guid(8f30d6b5b172a07468bfd6570d062598) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FlagPole/UnwrapTexture/FlagTextureUnwrap.png using Guid(8f30d6b5b172a07468bfd6570d062598) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '51c6354efe22ab6880303cceb1e770af') in 0.047163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/FlagPole/PoleMaterials/Materials/GoldMaterial.mat
+  artifactKey: Guid(7ddf83f5669487445b462997262663c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FlagPole/PoleMaterials/Materials/GoldMaterial.mat using Guid(7ddf83f5669487445b462997262663c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a7f4d8c44c93fdb6a85f28813fd5361c') in 0.050438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/FlagPole/PoleMaterials/Textures/BrandNewSmooth_Pole_Colour_Normal.bmp
+  artifactKey: Guid(b2f2ba3cfc3a6c6408b7b2a305af904b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FlagPole/PoleMaterials/Textures/BrandNewSmooth_Pole_Colour_Normal.bmp using Guid(b2f2ba3cfc3a6c6408b7b2a305af904b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd17a06614a2a974d70bab3dee91eb3bc') in 0.045159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/FlagPole/Prefabs
+  artifactKey: Guid(deb8c7e849f879b4cb129d93bc2d78e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FlagPole/Prefabs using Guid(deb8c7e849f879b4cb129d93bc2d78e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4a10d9e841768356ebf37965118f22c3') in 0.017582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FlagPole/PoleMaterials/Textures/BrandNewSmooth_Gold_Material_AlbedoTransparency.bmp
+  artifactKey: Guid(5b53adc4d8e5b8f4f81ae4c25f74c05d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FlagPole/PoleMaterials/Textures/BrandNewSmooth_Gold_Material_AlbedoTransparency.bmp using Guid(5b53adc4d8e5b8f4f81ae4c25f74c05d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5cf2beffa196fcd69945b504944589b7') in 0.043385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/FlagPole/PoleMaterials/Textures/BrandNewSmooth_Base_Colour_AlbedoTransparency.bmp
+  artifactKey: Guid(1d1bfa4385542724c95fecfa79bc88ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FlagPole/PoleMaterials/Textures/BrandNewSmooth_Base_Colour_AlbedoTransparency.bmp using Guid(1d1bfa4385542724c95fecfa79bc88ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'db19d26caf91fcedbe3bb5f6e94f9709') in 0.050745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/FlagPole/FlagMaterials/Materials/GBFlagMaterial 1.mat
+  artifactKey: Guid(810ff66250008024ab72f167c261bb17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FlagPole/FlagMaterials/Materials/GBFlagMaterial 1.mat using Guid(810ff66250008024ab72f167c261bb17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a55b8308023e7e69477bf86b2ab23167') in 0.104008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/FlagPole/PoleMaterials
+  artifactKey: Guid(f6960caf5b779fd4daaca524a8fb544f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FlagPole/PoleMaterials using Guid(f6960caf5b779fd4daaca524a8fb544f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a73a02bf69c58f242a655f00229a825f') in 0.016334 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/FlagPole/FlagMaterials/Materials/AmericaFlagMaterial.mat
+  artifactKey: Guid(9a77ac97baff8ea43a5f1c69cd866bbd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FlagPole/FlagMaterials/Materials/AmericaFlagMaterial.mat using Guid(9a77ac97baff8ea43a5f1c69cd866bbd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c42611e826f166440345b8f9262a9c62') in 0.022791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/FlagPole/UnwrapTexture
+  artifactKey: Guid(1626aba7fffe3614e927b61b98bdb90b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FlagPole/UnwrapTexture using Guid(1626aba7fffe3614e927b61b98bdb90b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0fea4f7af03ed2ecca80dfa18d221bd1') in 0.015409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FlagPole/PoleMaterials/Textures/BrandNewSmooth_Gold_Material_MetallicSmoothness.bmp
+  artifactKey: Guid(4ebf95d4a82052b4cbfe3a68637af0ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FlagPole/PoleMaterials/Textures/BrandNewSmooth_Gold_Material_MetallicSmoothness.bmp using Guid(4ebf95d4a82052b4cbfe3a68637af0ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f6145fbe77f5b7e368d131e3d4d876c5') in 0.040116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/FlagPole/FlagMaterials/Textures/AmericanFlagAlbedo.png
+  artifactKey: Guid(5d6e754018554dd41969f1208ef171a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FlagPole/FlagMaterials/Textures/AmericanFlagAlbedo.png using Guid(5d6e754018554dd41969f1208ef171a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b737228063454cdf6ca40a4e3ed64bad') in 0.042477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/FlagPole/PoleMaterials/Textures/BrandNewSmooth_Pole_Colour_MetallicSmoothness.bmp
+  artifactKey: Guid(eb94e3ff32c6aa04588f2ac4abaef947) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FlagPole/PoleMaterials/Textures/BrandNewSmooth_Pole_Colour_MetallicSmoothness.bmp using Guid(eb94e3ff32c6aa04588f2ac4abaef947) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8a21c5155f96a29c3d056e36382bbd44') in 0.045160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 24.870105 seconds.
+  path: Assets/FlagPole/Assets/FlagPole.obj
+  artifactKey: Guid(03fd20087355b0842978b747dd4c0849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlagPole/Assets/FlagPole.obj using Guid(03fd20087355b0842978b747dd4c0849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4a9c117bea1c5deef601fcb836f3825') in 0.090210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 1677.445831 seconds.
+  path: Assets/wetransfer_untitled807_20240108101937-png_2024-01-08_1003
+  artifactKey: Guid(b0cfc633c85ed7d4e8b5fb321f088773) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/wetransfer_untitled807_20240108101937-png_2024-01-08_1003 using Guid(b0cfc633c85ed7d4e8b5fb321f088773) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e59989224a32d890e5565d347d88e425') in 0.095439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/wetransfer_untitled807_20240108101937-png_2024-01-08_1003/Untitled807_20240108101937.png
+  artifactKey: Guid(8e4ec489768a4ac4aa2279f2799bf20c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/wetransfer_untitled807_20240108101937-png_2024-01-08_1003/Untitled807_20240108101937.png using Guid(8e4ec489768a4ac4aa2279f2799bf20c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '856754e9e81012e4aaae87164f108555') in 0.076236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/wetransfer_untitled807_20240108101937-png_2024-01-08_1003/IMG_1555.png
+  artifactKey: Guid(03a4e7b19c27d6546805ce6a952dccf6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/wetransfer_untitled807_20240108101937-png_2024-01-08_1003/IMG_1555.png using Guid(03a4e7b19c27d6546805ce6a952dccf6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd4cf6558a37bd6a3655fceafec9bcc3c') in 0.054792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/wetransfer_untitled807_20240108101937-png_2024-01-08_1003/Untitled812_20240108120125.png
+  artifactKey: Guid(3aad588973415d74e9590e9a1fef7228) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/wetransfer_untitled807_20240108101937-png_2024-01-08_1003/Untitled812_20240108120125.png using Guid(3aad588973415d74e9590e9a1fef7228) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '663bed1e8ed99cd92e91fc9e63cf9a58') in 0.053926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/wetransfer_untitled807_20240108101937-png_2024-01-08_1003/Untitled809_20240108114751.png
+  artifactKey: Guid(2c2389faa02ec03468798ee3eb956378) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/wetransfer_untitled807_20240108101937-png_2024-01-08_1003/Untitled809_20240108114751.png using Guid(2c2389faa02ec03468798ee3eb956378) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a278a0eb5fca7ca1a2a5b7ba3fc51117') in 0.058186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.350997 seconds.
+  path: Assets/wetransfer_untitled807_20240108101937-png_2024-01-08_1003/Untitled807_20240108101937.png
+  artifactKey: Guid(8e4ec489768a4ac4aa2279f2799bf20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wetransfer_untitled807_20240108101937-png_2024-01-08_1003/Untitled807_20240108101937.png using Guid(8e4ec489768a4ac4aa2279f2799bf20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eddbe5311105ab9fe60a8cfb99e7ff09') in 0.082958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/wetransfer_untitled807_20240108101937-png_2024-01-08_1003/Untitled812_20240108120125.png
+  artifactKey: Guid(3aad588973415d74e9590e9a1fef7228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wetransfer_untitled807_20240108101937-png_2024-01-08_1003/Untitled812_20240108120125.png using Guid(3aad588973415d74e9590e9a1fef7228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a99757e0645f2e3360c2c8c6a860d088') in 0.030396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/wetransfer_untitled807_20240108101937-png_2024-01-08_1003/Untitled808_20240108114439.png
+  artifactKey: Guid(1f10acca31c5f414785f3544821a0e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wetransfer_untitled807_20240108101937-png_2024-01-08_1003/Untitled808_20240108114439.png using Guid(1f10acca31c5f414785f3544821a0e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dedc414ef2f00a68c0668998f2a36658') in 0.029267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 20.431784 seconds.
+  path: Assets/wetransfer_untitled807_20240108101937-png_2024-01-08_1003/Untitled809_20240108114751.png
+  artifactKey: Guid(2c2389faa02ec03468798ee3eb956378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wetransfer_untitled807_20240108101937-png_2024-01-08_1003/Untitled809_20240108114751.png using Guid(2c2389faa02ec03468798ee3eb956378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5867e8ae8e1dec4e6cacd7ebae5903e8') in 0.137204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.772047 seconds.
+  path: Assets/wetransfer_untitled807_20240108101937-png_2024-01-08_1003/Untitled812_20240108120125.png
+  artifactKey: Guid(3aad588973415d74e9590e9a1fef7228) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/wetransfer_untitled807_20240108101937-png_2024-01-08_1003/Untitled812_20240108120125.png using Guid(3aad588973415d74e9590e9a1fef7228) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '79dadba792fc5369e7a55e731269c251') in 0.150836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 379.274294 seconds.
+  path: Assets/wetransfer_untitled807_20240108101937-png_2024-01-08_1003/Materials
+  artifactKey: Guid(59339691ce393d749846af723c533e4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/wetransfer_untitled807_20240108101937-png_2024-01-08_1003/Materials using Guid(59339691ce393d749846af723c533e4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '667c10e6ef5e8cf2d38327fa0b99a560') in 0.011923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 262.325568 seconds.
+  path: Assets/wetransfer_untitled807_20240108101937-png_2024-01-08_1003/Materials/Untitled807_20240108101937.mat
+  artifactKey: Guid(c5b9d75784da7bb42950b0a6a0dd3022) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/wetransfer_untitled807_20240108101937-png_2024-01-08_1003/Materials/Untitled807_20240108101937.mat using Guid(c5b9d75784da7bb42950b0a6a0dd3022) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7892ee41078e0cc45f456ac9bbeeda94') in 0.024897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 125.252680 seconds.
+  path: Assets/wetransfer_untitled807_20240108101937-png_2024-01-08_1003/Materials/IMG_1555.mat
+  artifactKey: Guid(c724b507d5c3d7e418055f9451b43ff7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/wetransfer_untitled807_20240108101937-png_2024-01-08_1003/Materials/IMG_1555.mat using Guid(c724b507d5c3d7e418055f9451b43ff7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f7e4a0a3446687f4c73730be082be449') in 0.018384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 51.971494 seconds.
+  path: Assets/wetransfer_untitled807_20240108101937-png_2024-01-08_1003/Materials/Untitled809_20240108114751.mat
+  artifactKey: Guid(ce73cf159aae7744e8fb45a8bdce8225) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/wetransfer_untitled807_20240108101937-png_2024-01-08_1003/Materials/Untitled809_20240108114751.mat using Guid(ce73cf159aae7744e8fb45a8bdce8225) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '318d69000e296193c6304e55a40f642e') in 0.018544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 249.126988 seconds.
+  path: Assets/wetransfer_untitled807_20240108101937-png_2024-01-08_1003/Untitled811_20240108122425.png
+  artifactKey: Guid(8acc0669ac646004a90c5909eb892922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wetransfer_untitled807_20240108101937-png_2024-01-08_1003/Untitled811_20240108122425.png using Guid(8acc0669ac646004a90c5909eb892922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea8b3bcad4c2f419bddd033f2a0b0cbc') in 0.037136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.016984 seconds.
+  path: Assets/wetransfer_untitled807_20240108101937-png_2024-01-08_1003/Untitled811_20240108122425.png
+  artifactKey: Guid(8acc0669ac646004a90c5909eb892922) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/wetransfer_untitled807_20240108101937-png_2024-01-08_1003/Untitled811_20240108122425.png using Guid(8acc0669ac646004a90c5909eb892922) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4bae7665cda3eb1644e54db205e5c297') in 0.025624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 7.527591 seconds.
+  path: Assets/wetransfer_untitled807_20240108101937-png_2024-01-08_1003/Untitled811_20240108122425.png
+  artifactKey: Guid(8acc0669ac646004a90c5909eb892922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wetransfer_untitled807_20240108101937-png_2024-01-08_1003/Untitled811_20240108122425.png using Guid(8acc0669ac646004a90c5909eb892922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91a016e209864f612acd0b041de531f1') in 0.046934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.938204 seconds.
+  path: Assets/wetransfer_untitled807_20240108101937-png_2024-01-08_1003/Untitled811_20240108122425.png
+  artifactKey: Guid(8acc0669ac646004a90c5909eb892922) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/wetransfer_untitled807_20240108101937-png_2024-01-08_1003/Untitled811_20240108122425.png using Guid(8acc0669ac646004a90c5909eb892922) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'af537728e227aa2f72a596c34586dc36') in 0.040683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 88.126787 seconds.
+  path: Assets/wetransfer_untitled807_20240108101937-png_2024-01-08_1003/Materials/Untitled811_20240108122425.mat
+  artifactKey: Guid(adc446f78a2a2104d9f7aaa03b8f93fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/wetransfer_untitled807_20240108101937-png_2024-01-08_1003/Materials/Untitled811_20240108122425.mat using Guid(adc446f78a2a2104d9f7aaa03b8f93fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1a5ffd3901d0a0cf520a52785f9655da') in 0.014579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 40.310366 seconds.
+  path: Assets/wetransfer_untitled807_20240108101937-png_2024-01-08_1003/Untitled811_20240108122425.png
+  artifactKey: Guid(8acc0669ac646004a90c5909eb892922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wetransfer_untitled807_20240108101937-png_2024-01-08_1003/Untitled811_20240108122425.png using Guid(8acc0669ac646004a90c5909eb892922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cbd027a490cb65e7f79070ffe0130d8') in 0.012487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.947583 seconds.
+  path: Assets/wetransfer_untitled807_20240108101937-png_2024-01-08_1003/Untitled811_20240108122425.png
+  artifactKey: Guid(8acc0669ac646004a90c5909eb892922) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/wetransfer_untitled807_20240108101937-png_2024-01-08_1003/Untitled811_20240108122425.png using Guid(8acc0669ac646004a90c5909eb892922) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b9765c2728fb1c31ba00e67d5c80588a') in 0.021636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3452.241521 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(04)/Textures/Tiles_floor(04)_albedo.tga
+  artifactKey: Guid(44bcbfec7f5d0b7429de133dc6f96984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(04)/Textures/Tiles_floor(04)_albedo.tga using Guid(44bcbfec7f5d0b7429de133dc6f96984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d94cbc54c5f4639c90c74ba71219d57') in 0.071635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(04)/Textures/Tiles_floor(04)_Metallic.tga
+  artifactKey: Guid(9cbf380e2d69dbd4da85d830e4f00e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(04)/Textures/Tiles_floor(04)_Metallic.tga using Guid(9cbf380e2d69dbd4da85d830e4f00e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b7f9ab6946f9cc8275bbaf2967f3ab6') in 0.025652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1392.376506 seconds.
+  path: Assets/JJ_InteriorDoorPack_V1/Meshes
+  artifactKey: Guid(7b78ff774cc6e15428e5011040894f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JJ_InteriorDoorPack_V1/Meshes using Guid(7b78ff774cc6e15428e5011040894f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffed2abd17351f5ffec3cfd24cd79d21') in 0.012574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.073243 seconds.
+  path: Assets/JJ_InteriorDoorPack_V1/Meshes/intDoor.fbx
+  artifactKey: Guid(f0d4298dcac2ffd499747abaa06977ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JJ_InteriorDoorPack_V1/Meshes/intDoor.fbx using Guid(f0d4298dcac2ffd499747abaa06977ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dc8fd0ec30f9245042371735869f3e6') in 0.121992 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/JJ_InteriorDoorPack_V1/Meshes/intDoor_metalFrame.fbx
+  artifactKey: Guid(a15ab0fb95184604fbcff36e6621610a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JJ_InteriorDoorPack_V1/Meshes/intDoor_metalFrame.fbx using Guid(a15ab0fb95184604fbcff36e6621610a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68536847139335878db7b8425e9f1510') in 0.076128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 64.443282 seconds.
+  path: Assets/Tables and Chairs/Materials
+  artifactKey: Guid(04a343822e1b6e34eae2fa5a06d2caf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tables and Chairs/Materials using Guid(04a343822e1b6e34eae2fa5a06d2caf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13edf4b207e6d7e95fc3690ff0de46e2') in 0.011038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.094923 seconds.
+  path: Assets/Tables and Chairs/Materials/chair1mat.mat
+  artifactKey: Guid(c0112a0f339d37b40a5f2c4fc13c6e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tables and Chairs/Materials/chair1mat.mat using Guid(c0112a0f339d37b40a5f2c4fc13c6e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11d51309e6c75196f353fab0aeebbcd5') in 0.054288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tables and Chairs/Materials/chair3mat.mat
+  artifactKey: Guid(99ec0664ce37b3a4ea41580c29cadd76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tables and Chairs/Materials/chair3mat.mat using Guid(99ec0664ce37b3a4ea41580c29cadd76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db67a11de7182351dbf34895041b9d7b') in 0.082897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tables and Chairs/Materials/table5mat.mat
+  artifactKey: Guid(224e95f46f7b93f48ad91026b0e8070a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tables and Chairs/Materials/table5mat.mat using Guid(224e95f46f7b93f48ad91026b0e8070a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef9ffea2228aa3217478aba2bed4498b') in 0.074920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tables and Chairs/Materials/table2mat.mat
+  artifactKey: Guid(cf370d4a7da476b4180de44d0c476609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tables and Chairs/Materials/table2mat.mat using Guid(cf370d4a7da476b4180de44d0c476609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a22b08de92089fb10f6df00f3ddf5650') in 0.073608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tables and Chairs/Materials/table3mat.mat
+  artifactKey: Guid(98346bcebad198c44b2eb05438f763a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tables and Chairs/Materials/table3mat.mat using Guid(98346bcebad198c44b2eb05438f763a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c82451c17c07d692428c35eccabe0e9') in 0.063287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 30.604179 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(20)
+  artifactKey: Guid(7343b2dcf97ac3e4b8f0c479e476aa0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(20) using Guid(7343b2dcf97ac3e4b8f0c479e476aa0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62ddc9415d3a1f6b839aae28dc07fe0a') in 0.001007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.223724 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(20)/Material
+  artifactKey: Guid(915d6dcd9f93afd4dba88e2f6d720b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(20)/Material using Guid(915d6dcd9f93afd4dba88e2f6d720b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd376b9833cdd953e4ea73cc306ad9852') in 0.000982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.044372 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(20)/Material/Tiles_floor(20).mat
+  artifactKey: Guid(e64870dd701823141bc5a2c950138366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(20)/Material/Tiles_floor(20).mat using Guid(e64870dd701823141bc5a2c950138366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5de62506b9a6ef35b7d196dc9bd57505') in 0.024715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 7.820354 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(19)
+  artifactKey: Guid(9dafabd175ea0f848a560a9f649e3906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(19) using Guid(9dafabd175ea0f848a560a9f649e3906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b47dbe65db5d44d21ad921c967d37d71') in 0.001264 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.239875 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(19)/Material
+  artifactKey: Guid(5d629a694d6731644a435ac7b6507042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(19)/Material using Guid(5d629a694d6731644a435ac7b6507042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '741cbe6c2e6ff436ba61118ca9cfdedc') in 0.000620 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.047578 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(19)/Material/Tiles_floor(19).mat
+  artifactKey: Guid(98ac74df6c9550744b104ae9beed0b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(19)/Material/Tiles_floor(19).mat using Guid(98ac74df6c9550744b104ae9beed0b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2b3f3d0fadf82ab20f18ffd3ccee1f4') in 0.024818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 1048.077186 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(05)
+  artifactKey: Guid(8879062e7a940954ab9ccc635b8d0dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(05) using Guid(8879062e7a940954ab9ccc635b8d0dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '687211f0593f23f71de8cd1179e79f31') in 0.002828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.166847 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(05)/Material
+  artifactKey: Guid(c97c3b31a8542f8449084a1794a0f93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(05)/Material using Guid(c97c3b31a8542f8449084a1794a0f93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '811148e4d8331330fdc6311cc83a0a54') in 0.001258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.057050 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(05)/Material/Tiles_floor(05).mat
+  artifactKey: Guid(d3f15545d26b274489f3872b10cad7e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(05)/Material/Tiles_floor(05).mat using Guid(d3f15545d26b274489f3872b10cad7e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85db16878eb3bb6343d381320e9a3275') in 0.080981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 32.869755 seconds.
+  path: Assets/JJ_InteriorDoorPack_V1/Prefabs
+  artifactKey: Guid(e8812961c0bc5ce4b9e238cf56196acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JJ_InteriorDoorPack_V1/Prefabs using Guid(e8812961c0bc5ce4b9e238cf56196acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c2e37fb82843ae3b129c8c96453971b') in 0.001242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 19.852258 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(07)
+  artifactKey: Guid(145c9d728c402ff4a906bcaad674c334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(07) using Guid(145c9d728c402ff4a906bcaad674c334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc4e89be6a1161a4dbdb470aa7ce1d7') in 0.000942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.503920 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(07)/Material
+  artifactKey: Guid(359e4476fc52def42b9cfdbe79b04c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(07)/Material using Guid(359e4476fc52def42b9cfdbe79b04c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf7577c4fd77e23f571a100373fbadee') in 0.037997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.059740 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(07)/Material/Tiles_floor(07).mat
+  artifactKey: Guid(3b53587be22de4c44ba9682ce679ba19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(07)/Material/Tiles_floor(07).mat using Guid(3b53587be22de4c44ba9682ce679ba19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9c7f3983c290884776af75b1afa34be') in 0.030253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 11.795155 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(08)
+  artifactKey: Guid(84d7bc5a56bf62044985af487e1fceeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(08) using Guid(84d7bc5a56bf62044985af487e1fceeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73fd518d541def7cacbff6f2153c82f4') in 0.001298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.209247 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(08)/Material
+  artifactKey: Guid(0ae32408946431641b549b242ccce146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(08)/Material using Guid(0ae32408946431641b549b242ccce146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4c44bea0cae4cd58a533e687c08a025') in 0.001077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.038535 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(08)/Material/Tiles_floor(08).mat
+  artifactKey: Guid(21f9342217c7700488a0800398846dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(08)/Material/Tiles_floor(08).mat using Guid(21f9342217c7700488a0800398846dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afb51e104a4673d109b9dadb8ff1f7b4') in 0.037601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 5.478369 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(09)
+  artifactKey: Guid(a8ed156316687af458d4ccac6ae8d5dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(09) using Guid(a8ed156316687af458d4ccac6ae8d5dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '205f9951354f6bd02072a8d4585bf6b5') in 0.001017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.146235 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(09)/Material
+  artifactKey: Guid(914c303e83eadb24c96b7c1f01db952f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(09)/Material using Guid(914c303e83eadb24c96b7c1f01db952f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a6a2cfddf5cca3374a77a7757f4fd3d') in 0.001041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.040612 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(09)/Material/Tiles_floor(09).mat
+  artifactKey: Guid(86a7ccadbaea342499db13bda3e18bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(09)/Material/Tiles_floor(09).mat using Guid(86a7ccadbaea342499db13bda3e18bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3f9829ae08e31709741c8c3d7a50e62') in 0.035934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 83.797348 seconds.
+  path: Assets/Free/Wooden Floor Pack/Textures
+  artifactKey: Guid(cb8eb2715f75fd749a4ef1d2a357ca53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free/Wooden Floor Pack/Textures using Guid(cb8eb2715f75fd749a4ef1d2a357ca53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cf3a79706c320b9a2bab53b21a88f29') in 0.001881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.008679 seconds.
+  path: Assets/Free/Wooden Floor Pack/Textures/Wooden Floor
+  artifactKey: Guid(41e485d614b14d64698328c400d3ae48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free/Wooden Floor Pack/Textures/Wooden Floor using Guid(41e485d614b14d64698328c400d3ae48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27ca63c91bb9f923f564c80bca4a12dc') in 0.001608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.110652 seconds.
+  path: Assets/Free/Wooden Floor Pack/Textures/Wooden Floor/Wooden Floor_4K_Albedo.tga
+  artifactKey: Guid(8e343a29d61854e4ea2e2d3a6d86f82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free/Wooden Floor Pack/Textures/Wooden Floor/Wooden Floor_4K_Albedo.tga using Guid(8e343a29d61854e4ea2e2d3a6d86f82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f862694eb3cba765d6edb6ff0a52b782') in 0.038091 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Free/Wooden Floor Pack/Textures/Wooden Floor/Wooden Floor_4K_Metalness.tga
+  artifactKey: Guid(7e834f07a4703ef43bc7966cfb2b793b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free/Wooden Floor Pack/Textures/Wooden Floor/Wooden Floor_4K_Metalness.tga using Guid(7e834f07a4703ef43bc7966cfb2b793b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a852446077a02e426c8f055f58e553b5') in 0.068793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Free/Wooden Floor Pack/Textures/Wooden Floor/Wooden Floor_4K_Roughness.tga
+  artifactKey: Guid(7136ec304def3064fb21aa4ba8a0502e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free/Wooden Floor Pack/Textures/Wooden Floor/Wooden Floor_4K_Roughness.tga using Guid(7136ec304def3064fb21aa4ba8a0502e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf742a971258b91db9812ad70c53abc') in 0.063984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Free/Wooden Floor Pack/Textures/Wooden Floor/Wooden Floor_4K_Normal.tga
+  artifactKey: Guid(3dd2c9f9f13e2984fb0a63f13569bf18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free/Wooden Floor Pack/Textures/Wooden Floor/Wooden Floor_4K_Normal.tga using Guid(3dd2c9f9f13e2984fb0a63f13569bf18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0c87bbdebafa4a144f00faf68808fd0') in 0.120054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.446417 seconds.
+  path: Assets/Free/Wooden Floor Pack/Demo
+  artifactKey: Guid(047f9dacd80dd7b47bbc319f1965f5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free/Wooden Floor Pack/Demo using Guid(047f9dacd80dd7b47bbc319f1965f5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0959a42d44dd591af0e5e9d5cee3eba4') in 0.001212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 46.410384 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(11)
+  artifactKey: Guid(58d5575d2a2f610488e4fa1aba07940d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(11) using Guid(58d5575d2a2f610488e4fa1aba07940d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61ea08c727b2c88f3a95d589f03c3126') in 0.039347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.152700 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(11)/Material
+  artifactKey: Guid(6b6bf64b5620b0245b5574e6634f2f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(11)/Material using Guid(6b6bf64b5620b0245b5574e6634f2f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58b6eda7ca5d94695a1d1d9b5c16eeb0') in 0.002343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.052984 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(11)/Material/Tiles_floor(11).mat
+  artifactKey: Guid(6747d29a4683710488c2ca27af740899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(11)/Material/Tiles_floor(11).mat using Guid(6747d29a4683710488c2ca27af740899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf0f300f912d4da372073306cc3ea52b') in 0.050014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 4.059095 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(13)
+  artifactKey: Guid(6589753a44bcc9041933c5949ae7b078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(13) using Guid(6589753a44bcc9041933c5949ae7b078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '808adbc2d2ec94d6aaac45f91c50699c') in 0.001446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.019315 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(13)/Material
+  artifactKey: Guid(06f28907a902d49429021b7b2c90ff85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(13)/Material using Guid(06f28907a902d49429021b7b2c90ff85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1f4e71d38a81923627752516173f448') in 0.001239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.037127 seconds.
+  path: Assets/Texture_and_materials/Tiles_floor/Tiles_floor(13)/Material/Tiles_floor(13).mat
+  artifactKey: Guid(cdf5189d0d211d845b55fb65254c1a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_and_materials/Tiles_floor/Tiles_floor(13)/Material/Tiles_floor(13).mat using Guid(cdf5189d0d211d845b55fb65254c1a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e522fbbfd69148736a1c10cbfbb7c16') in 0.029900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5

@@ -1,0 +1,382 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.16f1 (d2c21f0ef2f1) revision 13812255'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 7523 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Ilinca/Hai la 12 c
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57468
+Successfully changed project path to: C:/Users/Ilinca/Hai la 12 c
+C:/Users/Ilinca/Hai la 12 c
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [34884] Host "[IP] 192.168.10.125 [Port] 0 [Flags] 2 [Guid] 388292517 [EditorId] 388292517 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HVTIJ98) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [34884] Host "[IP] 192.168.10.125 [Port] 0 [Flags] 2 [Guid] 388292517 [EditorId] 388292517 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HVTIJ98) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 37.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.16f1 (d2c21f0ef2f1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Ilinca/Hai la 12 c/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3976 MB
+    Driver:   31.0.15.3713
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56952
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.052141 seconds.
+- Loaded All Assemblies, in  0.699 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 526 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.155 seconds
+Domain Reload Profiling: 1852ms
+	BeginReloadAssembly (221ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (136ms)
+	LoadAllAssembliesAndSetupDomain (273ms)
+		LoadAssemblies (217ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (269ms)
+			TypeCache.Refresh (267ms)
+				TypeCache.ScanAssembly (249ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1156ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1060ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (749ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (213ms)
+			ProcessInitializeOnLoadMethodAttributes (89ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.184 seconds
+Refreshing native plugins compatible for Editor in 6.60 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.356 seconds
+Domain Reload Profiling: 2537ms
+	BeginReloadAssembly (269ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (788ms)
+		LoadAssemblies (627ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (340ms)
+			TypeCache.Refresh (303ms)
+				TypeCache.ScanAssembly (245ms)
+			ScanForSourceGeneratedMonoScriptInfo (26ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1357ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1062ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (872ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 5.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3084 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (57.4 KB). Loaded Objects now: 3550.
+Memory consumption went from 128.2 MB to 128.1 MB.
+Total: 4.969800 ms (FindLiveObjects: 0.386900 ms CreateObjectMapping: 0.143400 ms MarkObjects: 4.252800 ms  DeleteObjects: 0.185400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3569858.814909 seconds.
+  path: Assets/Stylized Wood Textures
+  artifactKey: Guid(78e1484cbe5db8d45a77810cf99129e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Wood Textures using Guid(78e1484cbe5db8d45a77810cf99129e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bde24ba63ee07d4854fab1b73c58d598') in 0.076858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.634112 seconds.
+  path: Assets/Stylized Wood Textures/Textures
+  artifactKey: Guid(1936428fe564a324f849422d248400de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Wood Textures/Textures using Guid(1936428fe564a324f849422d248400de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48ed5aefaba16e2cd941236f5ec189bf') in 0.001639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.638953 seconds.
+  path: Assets/Stylized Wood Textures/Demo
+  artifactKey: Guid(e364459cc44829140a50fa5d3df21724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Wood Textures/Demo using Guid(e364459cc44829140a50fa5d3df21724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3c6ff541cb9a7aea2752f1d4a02e2f4') in 0.001238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.098572 seconds.
+  path: Assets/Stylized Wood Textures/Materials
+  artifactKey: Guid(c2d16f73abf114443b1d40e128bc7e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Wood Textures/Materials using Guid(c2d16f73abf114443b1d40e128bc7e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4337177e2815c097b5caba24819cd0f') in 0.038468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.942163 seconds.
+  path: Assets/Stylized Wood Textures/Materials/Chevron
+  artifactKey: Guid(7cda40ec6fe89b14395dcc18e05c4075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Wood Textures/Materials/Chevron using Guid(7cda40ec6fe89b14395dcc18e05c4075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7943ebaf3ee7a1454e9166331a7ac213') in 0.002789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.034093 seconds.
+  path: Assets/Stylized Wood Textures/Materials/Chevron/Chevron.mat
+  artifactKey: Guid(0141bc0de40b03c47a7d54dba3567d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Wood Textures/Materials/Chevron/Chevron.mat using Guid(0141bc0de40b03c47a7d54dba3567d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08d15e3f10b24c2d9fab2472da924fd1') in 0.904679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 11.972986 seconds.
+  path: Assets/Stylized Wood Textures/Materials/Herringbone
+  artifactKey: Guid(0c116c6331b74314ba28eb5e18753938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Wood Textures/Materials/Herringbone using Guid(0c116c6331b74314ba28eb5e18753938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa4582c2d001664410d4f590986da842') in 0.000972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.040745 seconds.
+  path: Assets/Stylized Wood Textures/Materials/Herringbone/Herringbone.mat
+  artifactKey: Guid(0576b3490a5948442aace3fadba823bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Wood Textures/Materials/Herringbone/Herringbone.mat using Guid(0576b3490a5948442aace3fadba823bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8b6bb7075e982ead7d9772c064e60af') in 0.046782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 3.661408 seconds.
+  path: Assets/Stylized Wood Textures/Materials/Panels
+  artifactKey: Guid(67a6107b76225b64a80d6082b33ac95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Wood Textures/Materials/Panels using Guid(67a6107b76225b64a80d6082b33ac95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c30c8e5ad7de4feae320a9de8d683a6') in 0.001136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.054378 seconds.
+  path: Assets/Stylized Wood Textures/Materials/Panels/Panels.mat
+  artifactKey: Guid(a29dc5e705e2f4a429ca2000cb221c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Wood Textures/Materials/Panels/Panels.mat using Guid(a29dc5e705e2f4a429ca2000cb221c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b78f354ceea6240f2b01f346ffeed2b') in 0.040867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 2.405676 seconds.
+  path: Assets/Stylized Wood Textures/Materials/Planks
+  artifactKey: Guid(743609d7bf717f945b97686cdda0774a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Wood Textures/Materials/Planks using Guid(743609d7bf717f945b97686cdda0774a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2cffdc514816e859d9f2f1a0165680d') in 0.000959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.807976 seconds.
+  path: Assets/Stylized Wood Textures/Materials/Planks/Planks.mat
+  artifactKey: Guid(a384b583426023d4da68d3f25e868451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Wood Textures/Materials/Planks/Planks.mat using Guid(a384b583426023d4da68d3f25e868451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f50450007e358cac66bb2db3f8dab877') in 0.034212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 2.654981 seconds.
+  path: Assets/Stylized Wood Textures/Materials/Square
+  artifactKey: Guid(a75ad70d2f7855645b65b1c546b539fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Wood Textures/Materials/Square using Guid(a75ad70d2f7855645b65b1c546b539fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c63331dfa6874bd843de127605a7c246') in 0.001285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.085444 seconds.
+  path: Assets/Stylized Wood Textures/Materials/Square/Square.mat
+  artifactKey: Guid(4ddb30289dc6d6a47a05448ca7275e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Wood Textures/Materials/Square/Square.mat using Guid(4ddb30289dc6d6a47a05448ca7275e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d9328aacb1740fd21c0bd76e6434df4') in 0.031372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 2.598456 seconds.
+  path: Assets/Stylized Wood Textures/Materials/Triangle
+  artifactKey: Guid(df917eae16e1f62458b5ccf44dc8d329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Wood Textures/Materials/Triangle using Guid(df917eae16e1f62458b5ccf44dc8d329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5d193f5357ca72ab4cd13b6c67fe1ff') in 0.001109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.037970 seconds.
+  path: Assets/Stylized Wood Textures/Materials/Triangle/Triangle.mat
+  artifactKey: Guid(5e85b5e82c1a1a84186c3baf89e174c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Wood Textures/Materials/Triangle/Triangle.mat using Guid(5e85b5e82c1a1a84186c3baf89e174c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc5cbe3d97793fed2e3aa2f478087c5') in 0.071601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 174.560224 seconds.
+  path: Assets/JJ_InteriorDoorPack_V1/Textures
+  artifactKey: Guid(224fcb81016b35f449ee9f5f3bd94ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JJ_InteriorDoorPack_V1/Textures using Guid(224fcb81016b35f449ee9f5f3bd94ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df0ce84a0cf9b8ed724b07e3d6113b3c') in 0.039370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1650.179114 seconds.
+  path: Assets/Tables and Chairs/Models
+  artifactKey: Guid(ed0adc079b6f6624fa446d57db323f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tables and Chairs/Models using Guid(ed0adc079b6f6624fa446d57db323f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '500fe06e77dba249bbc6aa71f7c2dd88') in 0.002261 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.032909 seconds.
+  path: Assets/Tables and Chairs/Models/Chair1.fbx
+  artifactKey: Guid(7071103bc2fbbe24bac31cef183a3f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tables and Chairs/Models/Chair1.fbx using Guid(7071103bc2fbbe24bac31cef183a3f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e43debcd59bb595ec27d3aaf8a3d334') in 0.246800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tables and Chairs/Models/Table5.fbx
+  artifactKey: Guid(5f2cee103c351d241a0831fc84f28941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tables and Chairs/Models/Table5.fbx using Guid(5f2cee103c351d241a0831fc84f28941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bac4559bc8170b63524e9dec59eab9a') in 0.086577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Tables and Chairs/Models/Table3.fbx
+  artifactKey: Guid(c5147b6cd18e28d4999db5b508b607d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tables and Chairs/Models/Table3.fbx using Guid(c5147b6cd18e28d4999db5b508b607d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dff0f77c33f8ac629b5f71245c0ac0ac') in 0.060337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tables and Chairs/Models/Chair3.fbx
+  artifactKey: Guid(aa1b204bca644fa4e8fd6dffc37f583e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tables and Chairs/Models/Chair3.fbx using Guid(aa1b204bca644fa4e8fd6dffc37f583e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e145c66ecec131644dfbd8eb41ad7541') in 0.075428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tables and Chairs/Models/Chair4.fbx
+  artifactKey: Guid(6dd7a7b95938b4e4ca60ab75409e75e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tables and Chairs/Models/Chair4.fbx using Guid(6dd7a7b95938b4e4ca60ab75409e75e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e4a8709fa4df9919a4c3a2d8c1f4fb2') in 0.060431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Tables and Chairs/Models/Table2.fbx
+  artifactKey: Guid(7a629c76d1e0a3a4abd071dfd64c7d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tables and Chairs/Models/Table2.fbx using Guid(7a629c76d1e0a3a4abd071dfd64c7d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3aa22a1a6a28a53af8dc875e8cd5400') in 0.059539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
